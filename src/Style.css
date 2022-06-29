@@ -1,0 +1,57 @@
+.header img
+{
+    width:100%;
+    height:400px;
+}
+.navigation *
+{
+    font-family:arial;
+}
+.navigation ul
+{
+    font-size:20px;
+    background-color:black;
+    color:white;
+    margin-top:-10px;
+}
+.navigation ul li
+{
+    display:inline-block;
+    margin:20px;
+}
+.navigation ul li:hover 
+{
+    color:rgb(200, 200, 200);
+    cursor:pointer;
+}
+.footer
+{
+    background-color:black;
+    color:white;
+    font-size:20px;
+    font-family:arial;
+    height:300px;
+}
+.footer ul li 
+{
+    display:inline-block;
+    margin:20px;
+}
+.footer ul li:hover 
+{
+    color:rgb(200, 200, 200);
+    cursor:pointer;
+}
+.main
+{
+    font-family:arial;
+    text-align:center;
+    width:33%;
+    margin-left:33%;
+}
+.main img
+{
+    width:500px;
+    height:500px;
+    border-radius:25px;
+}
