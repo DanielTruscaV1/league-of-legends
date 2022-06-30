@@ -1,11 +1,11 @@
 import React from 'react'
-import image3 from "./images/image3.jpg";
+import image5 from "./images/image5.webp";
 
-function Singin() {
+function Signup() {
   return (
-    <div className="sign-in">
+    <div className="sign-up">
         <form>
-            <h1>Sign-in to your account!</h1>
+            <h1>Sign-up to create a new account!</h1>
             <label for="name">Name: </label>
             <br/>
             <input name="name" type="text"/>
@@ -18,11 +18,11 @@ function Singin() {
             <br/>
             <input name="password" type="password"/>
             <br/>
-            <button>Sing-in</button>
+            <button>Sing-up</button>
         </form>
-        <img src={image3}/>
+        <img src={image5}/>
     </div>
   )
 }
 
-export default Singin
+export default Signup

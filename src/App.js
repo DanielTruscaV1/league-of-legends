@@ -14,6 +14,7 @@ import
 } 
 from "react-router-dom";
 import Singin from "./components/Singin";
+import Signup from "./components/Signup";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
 
           </Route>
           <Route path="/Signin" element={<Singin/>}>
+
+          </Route>
+          <Route path="/Signup" element={<Signup/>}>
 
           </Route>
         </Routes>

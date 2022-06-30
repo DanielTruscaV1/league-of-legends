@@ -42,6 +42,11 @@
     color:rgb(200, 200, 200);
     cursor:pointer;
 }
+.footer img
+{
+    float:right;
+    margin-top:-70px;
+}
 .main
 {
     font-family:arial;
@@ -60,15 +65,22 @@
     font-size:20px;
     font-family:arial;
     text-align:center;
+    background-color:white;
+    color:black;
+    margin-top:-28px;
+    height:600px;
 }
 .sign-in form
 {
     width:500px;
     height:500px;
-    background-color:rgb(230, 230, 230);
+    background-color:rgb(240, 240, 240);
     border-radius:25px;
-    margin-left:33%;
+    margin-left:100px;
     padding:10px;
+    color:black;
+    margin-top:100px;
+    border-left:5px solid red;
 }
 .sign-in input
 {
@@ -88,4 +100,66 @@
     color:white;
     font-size:20px;
     font-family:arial;
+    cursor:pointer;
+}
+.sign-in img
+{
+    width:50%;
+    height:693px;
+    margin-left:50%;
+    margin-top:-592px;
+}
+.sign-up
+{
+    font-size:20px;
+    font-family:arial;
+    text-align:center;
+    background-color:white;
+    color:black;
+    margin-top:-28px;
+    height:600px;
+}
+.sign-up form
+{
+    width:500px;
+    height:500px;
+    background-color:rgb(240, 240, 240);
+    border-radius:25px;
+    margin-left:100px;
+    padding:10px;
+    color:black;
+    margin-top:100px;
+    border-left:5px solid red;
+}
+.sign-up input
+{
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    width:250px;
+    height:18px;
+}
+.sign-up button
+{
+    width:90px;
+    height:40px;
+    border-radius:20px;
+    border:none;
+    background-color:red;
+    color:white;
+    font-size:20px;
+    font-family:arial;
+    cursor:pointer;
+}
+.sign-up img
+{
+    width:50%;
+    height:693px;
+    margin-left:50%;
+    margin-top:-592px;
+}
+.navigation a
+{
+    text-decoration:none;
+    color:white;
 }
