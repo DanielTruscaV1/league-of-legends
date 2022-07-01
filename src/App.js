@@ -15,6 +15,7 @@ import
 from "react-router-dom";
 import Singin from "./components/Singin";
 import Signup from "./components/Signup";
+import Game from "./components/Game";
 
 function App() {
   return (
@@ -25,10 +26,13 @@ function App() {
           <Route path="/" element={<Main/>}>
 
           </Route>
-          <Route path="/Signin" element={<Singin/>}>
+          <Route path="/game" element={<Game/>}>
+            
+          </Route>
+          <Route path="/signin" element={<Singin/>}>
 
           </Route>
-          <Route path="/Signup" element={<Signup/>}>
+          <Route path="/signup" element={<Signup/>}>
 
           </Route>
         </Routes>
