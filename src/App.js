@@ -16,6 +16,7 @@ from "react-router-dom";
 import Singin from "./components/Singin";
 import Signup from "./components/Signup";
 import Game from "./components/Game";
+import Champions from "./components/Champions";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/game" element={<Game/>}>
             
+          </Route>
+          <Route path="/champions" element={<Champions/>}>
+
           </Route>
           <Route path="/signin" element={<Singin/>}>
 

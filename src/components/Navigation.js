@@ -6,7 +6,7 @@ function Navigation() {
         <ul>
             <li><a href="http://localhost:3000/">Home</a></li>
             <li><a href="http://localhost:3000/game">The game</a></li>
-            <li>Champions</li>
+            <li><a href="http://localhost:3000/champions">Champions</a></li>
             <li>Items</li>
             <li>Runes</li>
             <li>Universe</li>
