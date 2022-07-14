@@ -1,6 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-function Navigation() {
+function Navigation({backgroundColor, setBackgroundColor}) {
+  const [whiteMode, setWhiteMode] = useState(true); 
+  function handleClick()
+  {
+    setWhiteMode(!whiteMode);
+    if(whiteMode == true)
+      document.body.classList.add("dark-mode");
+    else
+      document.body.classList.remove("dark-mode");
+  }
   return (
     <div className="navigation">
         <ul>
@@ -15,6 +24,7 @@ function Navigation() {
             <li><a href="http://localhost:3000/signup">Sign-up</a></li>
             <li><a href="http://localhost:3000/players">Players</a></li>
         </ul>
+        <button onClick={handleClick}>{whiteMode?"Dark mode":"White mode"}</button>
     </div>
   )
 }

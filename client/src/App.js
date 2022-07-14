@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Main from "./components/Main";
@@ -20,10 +20,12 @@ import Champions from "./components/Champions";
 import Players from "./components/Players";
 
 function App() {
+  const [backgroundColor, setBackgroundColor] = useState("white");
   return (
+    <div style={{backgroundColor:{backgroundColor}}}>
       <Router>
         <Header/>
-        <Navigation/>
+        <Navigation backgroundColor={backgroundColor} setBackgroundColor={setBackgroundColor}/>
         <Routes>
           <Route path="/" element={<Main/>}>
 
@@ -46,6 +48,7 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
+    </div>
   );
 }
 
