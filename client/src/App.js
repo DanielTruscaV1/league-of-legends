@@ -25,7 +25,7 @@ function App() {
     <div style={{backgroundColor:{backgroundColor}}}>
       <Router>
         <Header/>
-        <Navigation backgroundColor={backgroundColor} setBackgroundColor={setBackgroundColor}/>
+        <Navigation/>
         <Routes>
           <Route path="/" element={<Main/>}>
 

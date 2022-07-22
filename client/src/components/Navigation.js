@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 
-function Navigation({backgroundColor, setBackgroundColor}) {
+function Navigation() {
   const [whiteMode, setWhiteMode] = useState(true); 
   function handleClick()
   {
     setWhiteMode(!whiteMode);
-    if(whiteMode == true)
+    if(whiteMode === true)
       document.body.classList.add("dark-mode");
     else
       document.body.classList.remove("dark-mode");

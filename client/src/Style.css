@@ -271,6 +271,6 @@ body
     cursor:pointer;
 }
 .dark-mode {
-    background-color:black;
+    background-color:rgb(50, 50, 50);
     color:white;
   }
